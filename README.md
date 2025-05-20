@@ -8,16 +8,69 @@ Este proyecto tiene como finalidad implementar y comparar diferentes métodos de
 
 Instrucciones para clonar el repositorio en Visual Studio 2022:
 
-1. Como el programa se encuentra en un GitHub, se debe copiar el enlace del repositorio Git, en este caso es el siguiente:
-[https://github.com/Angel-Alvarez962/MetodosBusqueda-CSharp](https://github.com/AlanDaniel1/Metodos_Busqueda)
+1. Descargar e instalar Visual Studio 2022 (si aún no lo tienes)
 
-2.Una vez copiado el enlace, abrimos Visual Studio Community 2022. En caso de no tenerlo, se puede instalar de manera gratuita desde cualquier navegador. El enlace es el siguiente: https://visualstudio.microsoft.com/es/downloads/.
+**Si aún no tienes Visual Studio Community 2022 instalado, sigue estos pasos:**
 
-3. Al abrir Visual Studio, nos darán diferentes opciones sobre lo que queremos realizar. La primera opción es "Clonar un repositorio".
+*Accede al sitio de descargas:
 
-4. Seleccionamos la opción y aparecerá un cuadro de texto donde colocaremos el enlace del GitHub del cual queremos clonar el código.
+-Abre tu navegador web y ve a Visual Studio Community 2022.
+-Descarga e instala la versión gratuita:
+-Descarga la versión gratuita Visual Studio Community.
+-Ejecuta el instalador y selecciona las cargas de trabajo necesarias. Para este proyecto, asegúrate de instalar ".NET desktop development".
 
-5. Una vez clonado el repositorio, abriremos el Explorador de Soluciones y seleccionaremos el archivo .cs que queremos ejecutar.
+*Configura el entorno:
+-Una vez instalado, inicia Visual Studio y asegúrate de que está correctamente configurado.
+
+2. Clonar el repositorio desde GitHub
+
+**Para clonar el repositorio, sigue estos pasos:**
+
+*Obtén el enlace del repositorio GitHub:
+
+-Ve al repositorio de tu código en GitHub:
+-Repositorio en GitHub.
+-Copia el enlace del repositorio (Clone URL), que generalmente se encuentra en el botón verde "Code" en la parte superior derecha.
+-Abre Visual Studio 2022
+-Una vez que Visual Studio esté abierto, en la pantalla de bienvenida, busca la opción "Clonar un repositorio".
+-Introduce el enlace del repositorio:
+-En el cuadro de texto que aparece, pega el enlace copiado de GitHub y presiona Clonar.
+-Espera a que Visual Studio descargue el contenido en tu máquina local.
+
+4. Abrir y ejecutar el proyecto en Visual Studio
+
+**Explorar los archivos:**
+
+-Una vez clonado, abre el Explorador de Soluciones (Ctrl + Alt + L si no está visible).
+-Dentro del explorador, busca el archivo principal (Program.cs).
+-Asegúrate de que todos los archivos de búsqueda (MetodosBusqueda.cs) están en el proyecto.
+
+*Verificar la configuración del proyecto:
+
+-Comprueba que el proyecto esté configurado con la versión adecuada de .NET.
+-Si es necesario, puedes verificar la versión instalada ejecutando dotnet --version en una terminal.
+
+*Compilar y ejecutar el código:
+
+-En la barra superior de Visual Studio, busca el botón Ejecutar (Start o Run).
+-También puedes presionar Ctrl + F5 para ejecutar el programa sin depuración.
+-Visual Studio abrirá la consola donde podrás ingresar valores y probar los métodos de búsqueda.
+
+6. Opcional: Subir cambios al repositorio
+
+**Si realizas modificaciones en el código y deseas subirlas a GitHub:**
+
+*Realizar cambios en el código:
+
+-Edita los archivos dentro de Visual Studio.
+
+*Guardar y confirmar cambios:
+
+-Usa la opción Git -> Commit para confirmar los cambios.
+
+*Subir cambios a GitHub:
+
+-Luego de confirmar los cambios, selecciona Git -> Push para enviarlos al repositorio remoto.
 
 
 El código está diseñado para realizar búsquedas de elementos dentro de una lista utilizando tres métodos diferentes. Su estructura es modular, lo que significa que cada método de búsqueda está implementado en un archivo independiente y se ejecuta desde un programa principal que controla la interacción con el usuario.
