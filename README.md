@@ -9,7 +9,7 @@ Este proyecto tiene como finalidad implementar y comparar diferentes métodos de
 Instrucciones para clonar el repositorio en Visual Studio 2022:
 
 1. Como el programa se encuentra en un GitHub, se debe copiar el enlace del repositorio Git, en este caso es el siguiente:
-https://github.com/Angel-Alvarez962/MetodosBusqueda-CSharp
+[https://github.com/Angel-Alvarez962/MetodosBusqueda-CSharp](https://github.com/AlanDaniel1/Metodos_Busqueda)
 
 2.Una vez copiado el enlace, abrimos Visual Studio Community 2022. En caso de no tenerlo, se puede instalar de manera gratuita desde cualquier navegador. El enlace es el siguiente: https://visualstudio.microsoft.com/es/downloads/.
 
